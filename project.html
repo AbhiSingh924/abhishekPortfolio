@@ -6,46 +6,65 @@
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
     <title>Projects</title>
 </head>
 <body>
     
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">My Portfolio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+  <a class="navbar-brand" href="#">My Portfolio</a>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/about.html">Skills</a>
-                </li>
+  <button class="navbar-toggler" type="button" data-toggle="collapse"
+    data-target="#navbarSupportedContent">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-                <li class="nav-item active">
-                    <a class="nav-link" href="/">Projects</a>
-                </li>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Contact
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="mailto:singhabhi6377@gmail.com">Email</a>
-                        <a class="dropdown-item" href="https://github.com/AbhiSingh924">GitHub</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="www.linkedin.com/in/anand29abhishek">Linkdin</a>
-                        <a class="dropdown-item" href="https://www.naukri.com/mnjuser/profile?id=&altresid">Naukri</a>
-                    </div>
-                </li>
-            </ul>
+    <!-- LEFT MENU -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="./index.html">Home</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="/skills.html">Skills</a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Projects</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+          role="button" data-toggle="dropdown">
+          Contact
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="mailto:singhabhi6377@gmail.com">Email</a>
+          <a class="dropdown-item" href="https://github.com/AbhiSingh924" target="_blank">GitHub</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://www.linkedin.com/in/anand29abhishek" target="_blank">LinkedIn</a>
+          <a class="dropdown-item" href="https://www.naukri.com/">Naukri</a>
         </div>
-    </nav>
+      </li>
+    </ul>
+
+    <!-- RIGHT RESUME BUTTON -->
+    <div class="ml-auto">
+      <a href="./assets/Abhishek Anand Resume.pdf"
+         class="btn btn-outline-success"
+         download>
+        <i class="fas fa-download mr-2"></i>Download Resume
+      </a>
+    </div>
+
+  </div>
+</nav>
 
     <div class="container my-4 ">
         <div class="row featurette d-flex justify-content-center align-items-center p-4">
@@ -61,7 +80,11 @@
                 
             </div>
             <div class="col-md-5">
-                <img class="img-fluid mb-2 p-2 mr-auto " src="./assets/skin.png" style="height: 320px;" alt="">
+                <a href="https://abhisingh924.github.io/Skin-Scan/">
+                    <button class="btn btn-secondary">Click👇
+                        <img class="img-fluid mb-2 p-2 mr-auto " src="./assets/skin.png" style="height: 320px;" alt="">
+                    </button>
+                </a>
                  
             </div>
         </div>
@@ -78,7 +101,11 @@
                 <button class="btn btn-secondary">javaScript</button>
             </div>
             <div class="col-md-5 order-md-1">
-                <img class="img-fluid mb-2 p-2" style="height: 320px;" src="./assets/Expance.png" alt="">
+                <a href="https://softvault.vercel.app/https://expense-tracker-sigma-pied-63.vercel.app/">                                        
+                    <button class="btn btn-secondary">Click👇
+                        <img class="img-fluid mb-2 p-2" style="height: 320px;" src="./assets/Expance.png" alt="">
+                    </button>
+                </a>
                  
             </div>
         </div>
@@ -93,7 +120,11 @@
             
             </div>
             <div class="col-md-5">
-                <img class="img-fluid mb-2 p-2" src="./assets/houshing.png" alt="">
+                <a href="https://abhisingh924.github.io/login_page/">
+                    <button class="btn btn-secondary">Click👇
+                        <img class="img-fluid mb-2 p-2" src="./assets/houshing.png" alt="">
+                    </button>
+                </a>
                  
             </div>
         </div>
@@ -110,7 +141,11 @@
                 <!-- <button class="btn btn-secondary">javaScript</button> -->
             </div>
             <div class="col-md-5 order-md-1">
-                <img class="img-fluid mb-2 " style="height: 320px;" src="./assets/razorpay.png" alt="">   
+                <a href=" https://abhisingh924.github.io/Razorpay-clone/">
+                    <button class="btn btn-secondary">Click👉
+                        <img class="img-fluid mb-2 " style="height: 320px;" src="./assets/razorpay.png" alt="">   
+                    </button>
+                </a>
             </div>
         </div>
          <div class="row featurette d-flex justify-content-center align-items-center p-6">
@@ -123,15 +158,22 @@
                 <button class="btn btn-secondary">React</button>
                 <button class="btn btn-secondary">Node.js</button>
                 <button class="btn btn-secondary">OpenAi</button>
-            
+                
             </div>
             <div class="col-md-5">
-                <img class="img-fluid mb-2 p-2" src="./assets/softsell.png" style="height: 320px;" alt="">
+                <a href="https://softvault.vercel.app/">
+                    <button class="btn btn-secondary">Click👇
+                        <img class="img-fluid mb-2 p-2" src="./assets/softsell.png" style="height: 320px;" alt="">
+                    </button>
+                </a>
                  
             </div>
         </div>
-
     </div>
+    <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© Portfoli Abhishek Anand all right reserved <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>

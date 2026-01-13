@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Skills</title>
+
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .skill-card {
+            border: none;
+            border-radius: 8px;
+        }
+        .skill-icon {
+            font-size: 40px;
+        }
+        .skill-name {
+            font-size: 14px;
+            margin-top: 6px;
+        }
+        .skill-box {
+            width: 80px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">My Portfolio</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse"
+    data-target="#navbarSupportedContent">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    <!-- LEFT MENU -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link active" href="/skills.html">Skills</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="./project.html">Projects</a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+          role="button" data-toggle="dropdown">
+          Contact
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="mailto:singhabhi6377@gmail.com">Email</a>
+          <a class="dropdown-item" href="https://github.com/AbhiSingh924" target="_blank">GitHub</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://www.linkedin.com/in/anand29abhishek" target="_blank">LinkedIn</a>
+          <a class="dropdown-item" href="https://www.naukri.com/">Naukri</a>
+        </div>
+      </li>
+    </ul>
+
+    <!-- RIGHT RESUME BUTTON -->
+    <div class="ml-auto">
+      <a href="./assets/Abhishek Anand Resume.pdf"
+         class="btn btn-outline-success"
+         download>
+        <i class="fas fa-download mr-2"></i>Download Resume
+      </a>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Education Section -->
+<section id="education" class="container py-5">
+  <h2 class="text-center font-weight-bold mb-5">Education</h2>
+
+  <div class="row">
+
+    <!-- Bachelor Degree -->
+    <div class="col-md-4 mb-4">
+      <div class="card shadow h-100 text-center">
+        <div class="card-body">
+          <i class="fas fa-user-graduate fa-3x text-primary mb-3"></i>
+          <h5 class="card-title font-weight-bold">
+            Bachelor of Engineering
+          </h5>
+          <p class="text-muted mb-1">
+            Information Science & Engineering
+          </p>
+          <p class="mb-1">
+            PES College of Engineering, Mandya
+          </p>
+          <span class="badge badge-success mb-2">2021 – 2025</span>
+          <p class="font-weight-bold mt-2">
+            CGPA: 7.1
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Senior Secondary -->
+    <div class="col-md-4 mb-4">
+      <div class="card shadow h-100 text-center">
+        <div class="card-body">
+          <i class="fas fa-school fa-3x text-warning mb-3"></i>
+          <h5 class="card-title font-weight-bold">
+            Senior Secondary (CBSE)
+          </h5>
+          <p class="text-muted mb-1">
+            PCM (Physics, Chemistry, Mathematics)
+          </p>
+          <p class="mb-1">
+            Indian Public School, Purnea
+          </p>
+          <span class="badge badge-info mb-2">2018-2020</span>
+          <p class="font-weight-bold mt-2">
+            Percentage: 68.8%
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Higher Secondary -->
+    <div class="col-md-4 mb-4">
+      <div class="card shadow h-100 text-center">
+        <div class="card-body">
+          <i class="fas fa-book-reader fa-3x text-success mb-3"></i>
+          <h5 class="card-title font-weight-bold">
+            Higher Secondary (CBSE)
+          </h5>
+          <p class="text-muted mb-1">
+            General Studies
+          </p>
+          <p class="mb-1">
+            Bijendra Public School, Purnea
+          </p>
+          <span class="badge badge-secondary mb-2">2016-2018</span>
+          <p class="font-weight-bold mt-2">
+            Percentage: 88.6%
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- SKILLS SECTION -->
+<section id="skills" class="container py-5">
+    <h2 class="text-center font-weight-bold mb-5">Skills</h2>
+
+    <div class="row">
+
+        <!-- Frontend -->
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card skill-card shadow text-center h-100">
+                <div class="card-body">
+                    <h5 class="font-weight-bold mb-4">Frontend</h5>
+
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="skill-box">
+                            <i class="fab fa-html5 skill-icon text-warning"></i>
+                            <div class="skill-name">HTML</div>
+                        </div>
+                        <div class="skill-box">
+                            <i class="fab fa-css3-alt skill-icon text-primary"></i>
+                            <div class="skill-name">CSS</div>
+                        </div>
+                        <div class="skill-box">
+                            <i class="fab fa-js-square skill-icon text-warning"></i>
+                            <div class="skill-name">JavaScript</div>
+                        </div>
+                        <div class="skill-box">
+                            <i class="fas fa-palette skill-icon text-info"></i>
+                            <div class="skill-name">UI Design</div>
+                        </div>
+                        <div class="skill-box">
+                            <i class="fab fa-react skill-icon text-info"></i>
+                            <div class="skill-name">React</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Technical Skills -->
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card skill-card shadow text-center h-100">
+                <div class="card-body">
+                    <h5 class="font-weight-bold mb-4">Technical Skills</h5>
+
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="skill-box">
+                            <i class="fas fa-copyright skill-icon text-primary"></i>
+                            <div class="skill-name">C</div>
+                        </div>
+                        <div class="skill-box">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
+                                 width="40" alt="C++">
+                            <div class="skill-name">C++</div>
+                        </div>
+                        <div class="skill-box">
+                            <i class="fab fa-java skill-icon text-danger"></i>
+                            <div class="skill-name">Java</div>
+                        </div>
+                        <div class="skill-box">
+                            <i class="fab fa-python skill-icon text-warning"></i>
+                            <div class="skill-name">Python</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Database -->
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card skill-card shadow text-center h-100">
+                <div class="card-body">
+                    <h5 class="font-weight-bold mb-4">Database</h5>
+
+                    <div class="d-flex justify-content-center">
+                        <div class="skill-box">
+                            <img src="https://thumbs.dreamstime.com/b/sql-icon-major-database-format-vector-illustration-color-version-208686087.jpg"
+                                 width="45" alt="SQL">
+                            <div class="skill-name">SQL</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Course Work -->
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card skill-card shadow text-center h-100">
+                <div class="card-body">
+                    <h5 class="font-weight-bold mb-4">Course Work</h5>
+
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="skill-box">
+                            <i class="fas fa-code skill-icon text-secondary"></i>
+                            <div class="skill-name">Programming</div>
+                        </div>
+                        <div class="skill-box">
+                            <i class="fas fa-desktop skill-icon text-primary"></i>
+                            <div class="skill-name">OS</div>
+                        </div>
+                        <div class="skill-box">
+                            <i class="fas fa-database skill-icon text-success"></i>
+                            <div class="skill-name">DBMS</div>
+                        </div>
+                        <div class="skill-box">
+                            <i class="fas fa-cogs skill-icon text-danger"></i>
+                            <div class="skill-name">SE</div>
+                        </div>
+                        <div class="skill-box">
+                            <i class="fas fa-bug skill-icon text-warning"></i>
+                            <div class="skill-name">Debugging</div>
+                        </div>
+                        <div class="skill-box">
+                            <i class="fas fa-brain skill-icon text-info"></i>
+                            <div class="skill-name">Logic</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="container py-5">
+  <h2 class="text-center font-weight-bold mb-5">Experience</h2>
+
+  <div class="row">
+
+    <!-- ZesTech Experience -->
+    <div class="col-md-6 mb-4">
+      <div class="card shadow h-100">
+        <div class="card-body">
+          <div class="d-flex align-items-center mb-3">
+            <i class="fas fa-building fa-2x text-primary mr-3"></i>
+            <div>
+              <h5 class="font-weight-bold mb-0">ZesTech Global Pvt. Ltd.</h5>
+              <small class="text-muted">Dec 2023 – Jan 2024</small>
+            </div>
+          </div>
+
+          <h6 class="text-success font-weight-bold mb-3">
+            Backend Developer Intern
+          </h6>
+
+          <ul class="pl-3 mb-0">
+            <li>Designed and implemented a Hotel Management Website using <strong>Django</strong>.</li>
+            <li>Integrated existing UI templates to speed up development and maintain consistency.</li>
+            <li>Collaborated with team members to debug and optimize backend code.</li>
+            <li>Worked on database management, user authentication, and API integration.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- EduSkills Experience -->
+    <div class="col-md-6 mb-4">
+      <div class="card shadow h-100">
+        <div class="card-body">
+          <div class="d-flex align-items-center mb-3">
+            <i class="fas fa-laptop-code fa-2x text-warning mr-3"></i>
+            <div>
+              <h5 class="font-weight-bold mb-0">EduSkills Academy</h5>
+              <small class="text-muted">Apr 2025 – Jun 2025</small>
+            </div>
+          </div>
+
+          <h6 class="text-info font-weight-bold mb-3">
+            Full Stack Web Development Intern (Virtual)
+          </h6>
+
+          <ul class="pl-3 mb-0">
+            <li>Completed a virtual internship in collaboration with PES College of Engineering.</li>
+            <li>Developed dynamic web applications using <strong>HTML, CSS, JavaScript</strong>.</li>
+            <li>Worked with <strong>MongoDB & SQL</strong> for database integration.</li>
+            <li>Gained hands-on experience in full-stack workflows and UI–backend connectivity.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Revature Experience -->
+    <div class="col-md-6 mb-4">
+    <div class="card shadow h-100">
+        <div class="card-body">
+
+        <!-- Company & Duration -->
+        <div class="d-flex align-items-center mb-3">
+            <i class="fas fa-server fa-2x text-danger mr-3"></i>
+            <div>
+            <h5 class="font-weight-bold mb-0">Revature</h5>
+            <small class="text-muted">Jan 2025 – Apr 2025 · Remote</small>
+            </div>
+        </div>
+
+        <!-- Role -->
+        <h6 class="text-primary font-weight-bold mb-2">
+            Back End Developer (Trainee)
+        </h6>
+
+        <!-- Description -->
+        <p class="mb-3">
+            Completed a <strong>10-week Pre-Training Program</strong> focused on
+            <strong>Java Backend Development</strong>. Gained hands-on experience
+            building scalable backend applications and working with databases.
+        </p>
+
+        <!-- Responsibilities -->
+        <ul class="pl-3">
+            <li>Developed backend applications using <strong>Java</strong> and <strong>Spring Boot</strong>.</li>
+            <li>Worked with <strong>SQL</strong> for database design and data handling.</li>
+            <li>Built and tested <strong>REST APIs</strong> for server-side communication.</li>
+            <li>Learned backend architecture, scalability, and best coding practices.</li>
+        </ul>
+
+        <!-- Skills -->
+        <div class="mt-3">
+            <span class="badge badge-dark mr-1 mb-1">Java</span>
+            <span class="badge badge-info mr-1 mb-1">Spring Boot</span>
+            <span class="badge badge-success mr-1 mb-1">SQL</span>
+            <span class="badge badge-warning mr-1 mb-1">REST APIs</span>
+            <span class="badge badge-secondary mr-1 mb-1">Java Development</span>
+        </div>
+
+        </div>
+    </div>
+    </div>
+
+
+  </div>
+</section>
+
+
+
+<section id="accomplishments" class="container py-5">
+    <h2 class="text-center font-weight-bold mb-5">
+        Accomplishments & Honors
+    </h2>
+
+    <div class="row">
+
+        <!-- Accomplishments -->
+        <div class="col-md-4 mb-4">
+            <div class="card shadow h-100 border-0">
+                <div class="card-body">
+                    <h5 class="card-title font-weight-bold mb-3 text-center">
+                        <i class="fas fa-trophy text-warning mr-2"></i>
+                        Achievements
+                    </h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <i class="fas fa-medal text-success mr-2"></i>
+                            First Position holder in Bhagalpur-Zonal Sports Meet
+                        </li>
+                        <li>
+                            <i class="fas fa-award text-primary mr-2"></i>
+                            Fourth place in Intercollegiate Mysore Division Wrestling Tournament
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Activities -->
+        <div class="col-md-4 mb-4">
+            <div class="card shadow h-100 border-0">
+                <div class="card-body">
+                    <h5 class="card-title font-weight-bold mb-3 text-center">
+                        <i class="fas fa-running text-danger mr-2"></i>
+                        Activities
+                    </h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <i class="fas fa-dumbbell text-dark mr-2"></i>
+                            Sports: Wrestling
+                        </li>
+                        <li>
+                            <i class="fas fa-microphone text-info mr-2"></i>
+                            Participated in multiple seminar presentations to overcome stage fear
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Languages -->
+        <div class="col-md-4 mb-4">
+            <div class="card shadow h-100 border-0">
+                <div class="card-body">
+                    <h5 class="card-title font-weight-bold mb-3 text-center">
+                        <i class="fas fa-language text-primary mr-2"></i>
+                        Languages
+                    </h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <i class="fas fa-check-circle text-success mr-2"></i>
+                            English — Professional Proficiency
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle text-success mr-2"></i>
+                            Hindi — Mother Tongue
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>© Portfoli Abhishek Anand all right reserved <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+</footer>
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
